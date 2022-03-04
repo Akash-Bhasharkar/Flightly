@@ -18,7 +18,7 @@ class FlightSearch:
     def search_flight(self, dates, iata_code, lowest_price) :
         parameters = {
                            
-                           "fly_from" : "STN",
+                           "fly_from" : "STN",  #code of your city
                            "fly_to" : iata_code,
                            "date_from" : dates[0],
                            "date_to" : dates[1],
